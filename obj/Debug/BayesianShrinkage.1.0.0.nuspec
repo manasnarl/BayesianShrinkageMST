@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BayesianShrinkage</id>
+    <version>1.0.0</version>
+    <title>AdaptiveBayesianShrinkage</title>
+    <authors>BayesianShrinkage</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\BayesianShrinkage\bin\Debug\net7.0-windows\BayesianShrinkage.runtimeconfig.json" target="lib\net7.0-windows7.0\BayesianShrinkage.runtimeconfig.json" />
+    <file src="C:\BayesianShrinkage\bin\Debug\net7.0-windows\BayesianShrinkage.dll" target="lib\net7.0-windows7.0\BayesianShrinkage.dll" />
+  </files>
+</package>

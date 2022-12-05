@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BayesianShrinkage/1.0.0": {
+        "dependencies": {
+          "ILNumerics": "4.5.5482.47106",
+          "MSTClass": "1.0.0.0"
+        },
+        "runtime": {
+          "BayesianShrinkage.dll": {}
+        }
+      },
+      "ILNumerics/4.5.5482.47106": {
+        "runtime": {
+          "ILNumerics.dll": {
+            "assemblyVersion": "4.5.5482.47106",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "MSTClass/1.0.0.0": {
+        "runtime": {
+          "MSTClass.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "OpenTK.GLControl/1.1.0.0": {
+        "runtime": {
+          "OpenTK.GLControl.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1508.5724"
+          }
+        }
+      },
+      "OpenTK/1.1.0.0": {
+        "runtime": {
+          "OpenTK.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1508.5724"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BayesianShrinkage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ILNumerics/4.5.5482.47106": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MSTClass/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.GLControl/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

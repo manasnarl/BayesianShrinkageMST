@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>BayesianShrinkage.App</StartupObject>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>$(AdaptiveBayesianShrinkage)</PackageId>
+    <Title>AdaptiveBayesianShrinkage</Title>
+    <Authors>$(Manas)</Authors>
+    <Company>$(NARL)</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ILNumerics">
+      <HintPath>..\matpgms\DeterministicStochastic\bin\Debug\ILNumerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MSTClass">
+      <HintPath>..\matpgms\MSTClass\bin\Debug\net5.0\MSTClass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
